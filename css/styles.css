@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    
+
+}
+#body-header{
+    height: 65vh;
+    /* background-image: url('img/pexels-lukas-574069.jpg');
+     */
+     opacity: .8;
+     background-attachment: fixed;
+     background-color: aqua;
+    background-size: cover;
+    background-position: center;
+}
+#nav-list{
+    list-style: none;
+    padding: 0px;
+}
+#nav-list li{
+    display: inline;
+    margin: 0 8px 8x 0;
+}
+#nav-list li a {
+    color: bisque;
+    text-decoration: none;
+    transition: 0.5s, border-bottom 4s;
+
+}
+#nav-list li a:hover{
+    color: rgb(219, 17, 17);
+    border-bottom: 1px solid black;
+}
+.text-center{
+    text-align: center ;
+}
